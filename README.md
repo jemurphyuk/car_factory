@@ -1,4 +1,4 @@
-# Brioche Factory TDD
+# Car Factory TDD
 
 ## Unit Test
 - Test singular and unitary pieces of code
@@ -14,20 +14,20 @@
 - Known inputs and know outputs
 - Assertion with inputs and outputs
 - Testing frameworks help you achieve this
-- FOR BRIOCHE FACTORY
-    - Brioche - known output (for bake_bread)
-    - Dough - known input (for bake_bread), known output (for make_dough)
-    - Ingredients - known input (for make_dough)
-- make_dough - should make dough when given correct three arguments
+- FOR CAR FACTORY
+    - CAR - known output (for build_car)
+    - PARTS - known input (for build_car), known output (for make_parts)
+    - Ingredients - known input (for make_parts)
+- make_parts - should make dough when given correct three arguments
 
 ### Integration test
 - run_factory
-    - As a user I want to be able to run a factory function. Give flour, water and eggs and recieve brioche
+    - As a user I want to be able to run a factory function. Give metal and labour and receive car
 
 ### Usage
 ````
-make_dough(arg1, arg2, arg3)
-bake(arg1)
+make_parts(arg1, arg2, arg3)
+build_car(arg1)
 run_factory(arg1, arg2, arg3)
 ````
 ## dunder main and dunder name
